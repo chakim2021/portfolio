@@ -1,0 +1,61 @@
+body {
+    font-size: 1.2em;
+    background-color: rgb(109, 48, 86);
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100 vh;
+  }
+  .navbar {
+    background-color: rgb(241, 19, 141);
+    text-align: center;
+    line-height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+  }
+  .nav-link {
+    color: rgb(211, 101, 101);
+    margin-right: 0.5rem;
+  }
+  .nav-link:hover {
+    color: rgb(207, 241, 9);
+    background: rgb(101, 12, 202);
+  }
+  nav {
+    background-color: rgb(143, 204, 228);
+    line-height: 3em;
+    color: white;
+  }
+  
+  nav a {
+    color: white;
+  }
+  header {
+    color: white;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  footer {
+    background-color: rgb(20, 231, 238);
+    text-align: center;
+    color: white;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  footer ul li {
+    margin-right: 0.8em;
+  }
+  footer a {
+    color: white;
+  }

@@ -6,21 +6,21 @@
   }
   
   nav {
-    background-color: #1200b1;
+    background-color: #1beca7;
     line-height: 3em;
     }
   nav a {
     color: white;
   }
   header{
-    background-color: #aba8c9;
+    background-color: #16e47d;
   }
   a {
     text-decoration: none;
     color: white;
   }
   footer {
-    background-color: #1200b1;
+    background-color: #15d37a;
   }
   footer ul {
     list-style-type: none;
