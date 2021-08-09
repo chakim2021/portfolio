@@ -25,6 +25,80 @@ body {
     color: rgb(19, 27, 4);
     background: rgb(211, 247, 7);
   }
+  .nav {
+    background-color: rgb(104, 121, 89);
+    line-height: 3em;
+    color: white;
+  }
+  
+  .nav a {
+    color: white;
+  }
+  .header {
+    color: white;
+  }
+  
+  .a {
+    text-decoration: none;
+  }
+  .cards-container {
+    display: flex;
+    flex-direction: row;
+  }
+  .card {
+    width: 400px;
+    min-height:400px;
+    margin: 0.5rem;
+  }
+  
+  .b {
+    border: 2px solid #d30f0f;
+  }
+  
+  .box-shadow {
+    box-shadow: 0 0 1rem 0 #34348d;
+  }
+  
+  .footer {
+    background-color: rgb(208, 250, 20);
+    text-align: center;
+  }
+  
+  .footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+  }
+  .footer ul li {
+    margin-right: 0.8em;
+  }
+  body {
+    font-size: 1.2em;
+    background-color: rgb(154, 219, 3);
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    height: 100 vh;
+  }
+  .navbar {
+    background-color: rgb(142, 163, 94);
+    text-align: center;
+    line-height: 3rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+  }
+  .nav-link {
+    color: white;
+    margin-right: 0.5rem;
+  }
+  .nav-link:hover {
+    color: rgb(19, 27, 4);
+    background: rgb(211, 247, 7);
+  }
   nav {
     background-color: rgb(104, 121, 89);
     line-height: 3em;

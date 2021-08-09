@@ -1,30 +1,125 @@
-*{
-    margin: 0;
+* {
+  margin: 0;
+}
+
+body {
+  font-size: 1.2em;
+}
+
+.container-fluid {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.container {
+  width: 90vw;
+  margin: auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #060613;
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-link {
+  color: rgb(161, 18, 18);
+  margin-right: 0.5rem;
+}
+
+.nav-link:hover {
+  color: #000;
+  background: rgb(134, 51, 51);
+}
+
+.Jumbotron {
+  background-color: lawngreen;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+
+.a {
+  text-decoration: none;
+}
+
+.main {
+  flex-grow: 1;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  width: 400px;
+  min-height:400px;
+  margin: 0.5rem;
+}
+
+.b {
+  border: 2px solid #d30f0f;
+}
+
+.box-shadow {
+  box-shadow: 0 0 1rem 0 #34348d;
+}
+
+footer {
+  background-color: #7fbb11;
+}
+footer ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li {
+  margin-right: 0.8em;
+}
+
+footer a {
+  color: rgb(163, 197, 13);
+}
+
+footer p {
+  color: rgb(19, 183, 212);
+  text-align: center;
+}
+
+#navbar-icon {
+  display: none;
+}
+
+.form-control {
+  outline: none;
+  width: 100%;
+  border-color: transparent;
+  min-height: 2rem;
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .jumbotron {
+    flex-direction: column;
   }
-  body {
-    font-size: 21px;
+
+  .navbar-collapse {
+    display: none;
   }
-  
-  nav {
-    background-color: #1beca7;
-    line-height: 3em;
-    }
-  nav a {
-    color: white;
+
+  #navbar-icon {
+    display: inline-block;
   }
-  header{
-    background-color: #16e47d;
-  }
-  a {
-    text-decoration: none;
-    color: white;
-  }
-  footer {
-    background-color: #15d37a;
-  }
-  footer ul {
-    list-style-type: none;
-  }
-  footer a {
-    color: white;
-  }
+}

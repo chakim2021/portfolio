@@ -1,51 +1,147 @@
-<!--////////////////////////////
-    Article:portfolio homepage//
-    Author :paul  kimeu    //
-    Date   : June 2021        //
-    License:Mit               //
-/////////////////////////////-->
+<!--////////////////////////
+Article Portfolio Homepage//
+Author paul kimeu//
+Date: June 2021//
+Licence:MIT//
+////////////////////////-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/main.css">
-    <script src="https://kit.fontawesome.com/38e8713257.js" crossorigin="anonymous"></script>
-    <title>paul kimeu Portfolio</title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <script src="./css/mykit.js" crossorigin="anonymous"></script>
+    <title>Paul kimeu portfolio</title>
   </head>
-
   <body>
-    <!--Navigation Bar Section-->
-    <a href="./projects.html">project</a>
-    <a href="./services.html">service</a>
-    <a href="./about.html">about</a>
-    <a href="./blog.html">blog</a>
-    <a href="./contact.html">contact</a><br />
+    <div class="container"></div>
+    <!--Navigation bar section-->
+    <nav class="navbar">
+      
+      <div class="navbar-collapse">
+        <a href="index.html">home</a>&nbsp;
+        <a href="contacts.html">contacts</a>&nbsp;
+        <a href="projects.html">projects</a>&nbsp;
+        <a href="services.html">services</a>&nbsp;
+        <a href="about.html">about</a>&nbsp;
+        <a
+          href="https://drive.google.com/file/d/139tEQKJILNzEm7wntLTQj7tucyjDH8a3/view?usp=sharing"
+          ><i class="fas fa-file"></i>resume</a
+        >
+      </div>
+      
+    </nav>
     <hr />
-    <!--jumbotron Section-->
-    <img src="pico/pico.jpg" alt="" />
-    <h1>I am paul kimeu</h1>
     <hr />
-    <p>
-      I am an IT student passionate in learning diffrent languages such as java
-      python etc and also a gamer. I have played so many games to copletion.
-    </p>
-    <!--Footer Section-->
-    <footer>
+    <!--Jumbotron section-->
+    <header class="Jumbotron">
 
+      <img
+        src="/images/pico.jpg"
+        alt="profile image"
+        width="300"
+        height="300"
+       />
+      <br />
+
+      <h1>Hi,i am paul kimeu</h1>
+      <p>
+        I am an IT student passionate in learning diffrent languages such as java
+        python etc and also a gamer. I have played so many games to copletion. 
+      </p>
+    </header>
+
+      <!--Main Section-->
+
+      <main class="container">
+        <a href="projects.html">
+        <section class="featured-projects">
+          <h2 class="text-center">Featured Projects</h2>
+          <div class="cards-container">
+            <div class="card b box-shadow">
+              <p>E-Gaming</p>
+              <P>a project where gamers can gameonline </P>
+              <img src="images/jnx.jpg"
+              alt="pic"
+              width="300"
+              height="300"
+              />
+            </div>
+            <div class="card b box-shadow">
+              <P>Betting</P>
+              <P> a betting website where user can monitorwhere and when upcoming matches are taking place</P>
+              ,<img src="images/bet.jpg">
+            </div>
+            <div class="card b box-shadow">
+              <P>ordertime</P>
+              <P>a websitewhere  people can order electronic devices for a period of time</P>
+              <img src="images/order.jpg"
+              alt="pic"
+              width="200"
+              height="200"
+              />              
+            </div>
+          </div>
+        </section>
+
+        <section class="testimonials">
+          <h2 class="text-center">Testimonials</h2>
+          <div class="cards-container">
+            <div class="card  b box-shadow">
+              <p>Martin Karori</p>
+              <p>software engineer</p>
+              <p>0712345678</p>
+            </div>
+            <div class="card b box-shadow">
+              <p>jack luke</p>
+              <p>web developer</p>
+              <p>0711238316</p>
+            </div>
+            <div class="card b box-shadow">
+              <p>fred mark</p>
+              <P>system analyst</P>
+              <P>0718123160</P>
+            </div>
+          
+        </section>
+
+        <section class="faqs">
+          <h2 class="text-center">Frequently asked Questions</h2>
+        </section>
+      </main>
+    <hr />
+    <hr />
+    <!--Footer section-->
+    <footer>
       <ul>
-        <li><a href="<https://github.com/"></i><i class="fab fa-github"></i></a></li>
         <li>
-          <a href="https://www.linkedin.com/company/login/"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://github.com/chakim2021"
+            ><i class="fab fa-github fa-2x"></i
+          ></a>
         </li>
-        <li><a href="https://twitter.com/home"><i class="fab fa-twitter-square"></i></a></li>
-        <li><a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/kim-kimeu-3646b3215/"
+            ><i class="fab fa-linkedin fa-2x"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/Paulkimeu18"
+            ><i class="fab fa-twitter fa-2x"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/_shka.ri/"
+            ><i class="fab fa-instagram fa-2x"></i
+          ></a>
+        </li>
       </ul>
       <p>
-        &copy;2021 All rights reserved. &trade;
-        <a href="index.html">paul kimeu</a>
+        &copy 2021 All rights reserved <a href="Paul kimeu">Paul kimeu</a>
       </p>
     </footer>
-    </body>
+    <hr />
+    <hr />
+    <br />
+  </body>
 </html>
